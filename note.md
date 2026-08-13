@@ -1,3 +1,4 @@
+Day 1 notes
 Python manages variables using scopes, which determine where a variable can be seen or accessed in your code
 
 [ L ] Local     -> Defined inside the current function
@@ -19,3 +20,35 @@ Examples: Strings (str), Tuples (tuple), Numbers (int, float), Booleans (bool)
 
 
 The challenge I faced was with the match, the bubble sort mostly the algorith part and the datastructure part.
+
+Day 2
+LIST
+"I have a collection of things."
+        ↓
+Position matters
+Duplicates are allowed
+I expect to modify it
+
+
+TUPLE
+"I have a fixed group of things."
+        ↓
+Position matters
+Duplicates are allowed
+I don't want the collection modified
+
+
+SET
+"I care about unique things."
+        ↓
+Duplicates disappear
+Membership is important
+Fast lookup is important
+
+
+DICT
+"I need to associate one thing with another."
+        ↓
+key → value
+Fast lookup by key
+Data has named attributes
