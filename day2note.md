@@ -1,0 +1,1 @@
+I will go through the reffered book and have a review about the concerned algo only in order to resolve the assignment , this way I won't be reading the whole book without applying it.
