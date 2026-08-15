@@ -38,7 +38,7 @@ def binary_search_recursive(sorted_list, target, low=0, high=None):
 
     else:
         return binary_search_recursive(
-            sorted_list, target, low, high - 1
+            sorted_list, target, low, mid - 1
         )
 
 
