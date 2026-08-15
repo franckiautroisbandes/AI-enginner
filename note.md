@@ -54,11 +54,9 @@ key → value
 Fast lookup by key
 Data has named attributes
 
-A linked list is a list that hold the data in head and the reference of the next node at the tail. You can only access a linked list through is head.
+A linked list is like a chain where each link, or node, holds two things: its data and a pointer to the next link. The list itself only knows where the very first link—the head—is located. Because of this, you can't jump straight to a specific item like you can in a regular Python list; you have to start at the beginning and follow the chain one link at a time. That is why finding something takes O(n) time instead of a Python list's instant O(1) lookup."
 
-A python list can be reached randomly provided you use the index.
-For the two_sum output, the Brute force does run faster than the Set
-
+For the two_sum the result shows that Set runs exponentially faster than Brute force.
 Brute force:
 Result: True
 Time: 0.051751899998635054 seconds
