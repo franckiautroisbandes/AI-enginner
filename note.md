@@ -54,4 +54,15 @@ key → value
 Fast lookup by key
 Data has named attributes
 
-linked list vs. list, and your real timing numbers from running two_sum.py
+A linked list is a list that hold the data in head and the reference of the next node at the tail. You can only access a linked list through is head.
+
+A python list can be reached randomly provided you use the index.
+For the two_sum output, the Brute force does run faster than the Set
+
+Brute force:
+Result: True
+Time: 0.051751899998635054 seconds
+
+Set:
+Result: True
+Time: 5.909998435527086e-05 seconds
