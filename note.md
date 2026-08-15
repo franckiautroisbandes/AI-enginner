@@ -20,8 +20,9 @@ Examples: Strings (str), Tuples (tuple), Numbers (int, float), Booleans (bool)
 
 
 The challenge I faced was with the match, the bubble sort mostly the algorith part and the datastructure part.
+----------------------------------------------------------------------------------------------------------
 
-Day 2
+Day 2 notes
 LIST
 "I have a collection of things."
         ↓
@@ -52,3 +53,5 @@ DICT
 key → value
 Fast lookup by key
 Data has named attributes
+
+linked list vs. list, and your real timing numbers from running two_sum.py
